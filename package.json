@@ -1,0 +1,14 @@
+{
+  "name": "scrollmagic-plugins",
+  "version": "1.0.2",
+  "description": "Plugins for scrollmagic npm package",
+  "main": "index.js",
+  "scripts": { },
+  "author": "Le Bon Numéro",
+  "license": "MIT",
+  "homepage": "https://github.com/GuillaumeDARRIET/scrollmagic-plugins#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/GuillaumeDARRIET/scrollmagic-plugins.git"
+  }
+}
