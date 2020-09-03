@@ -49,7 +49,7 @@ new ScrollMagic.Scene({ triggerElement: "#my-trigger" })
 ```js
 import * as ScrollMagic from "scrollmagic";
 import Velocity from "velocity-animate";
-import { ScrollMagicPluginVelocity } from "../../../scrollmagic-plugins";
+import { ScrollMagicPluginVelocity } from "scrollmagic-plugins";
 
 ScrollMagicPluginGsap(ScrollMagic, Velocity);
 
