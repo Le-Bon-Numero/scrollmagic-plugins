@@ -64,9 +64,10 @@ new ScrollMagic.Scene({ triggerElement: "#my-trigger" })
 
 ```js
 import * as ScrollMagic from "scrollmagic";
+import $ from "jquery";
 import { ScrollMagicPluginJQuery} from "scrollmagic-plugins";
 
-ScrollMagicPluginJQuery(ScrollMagic);
+ScrollMagicPluginJQuery(ScrollMagic, $);
 
 const controller = new ScrollMagic.Controller();
 
