@@ -1,6 +1,6 @@
 {
   "name": "scrollmagic-plugins",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Plugins for scrollmagic npm package",
   "main": "index.js",
   "scripts": { },
