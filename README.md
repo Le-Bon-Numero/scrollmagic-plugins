@@ -60,5 +60,17 @@ new ScrollMagic.Scene({ triggerElement: "#my-trigger" })
   .addTo(controller);
 ```
 
-### TO DO
-JQuery Plugin
+#### jQuery Plugin
+
+```js
+import * as ScrollMagic from "scrollmagic";
+import { ScrollMagicPluginJQuery} from "scrollmagic-plugins";
+
+ScrollMagicPluginJQuery(ScrollMagic);
+
+const controller = new ScrollMagic.Controller();
+
+new ScrollMagic.Scene({ triggerElement: $("#my-trigger") })
+  .setClassToggle($("#my-trigger"), "hidden")
+  .addTo(controller);
+```
