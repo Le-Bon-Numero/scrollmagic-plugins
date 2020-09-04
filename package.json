@@ -1,6 +1,6 @@
 {
   "name": "scrollmagic-plugins",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Plugins for scrollmagic npm package",
   "main": "index.js",
   "scripts": { },
@@ -10,5 +10,16 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/GuillaumeDARRIET/scrollmagic-plugins.git"
-  }
+  },
+  "keywords": [
+    "scrollmagic",
+    "plugin",
+    "es6",
+    "indicator",
+    "gsap",
+    "velocity",
+    "jquery",
+    "tweenmax",
+    "tweenlite"
+  ]
 }
